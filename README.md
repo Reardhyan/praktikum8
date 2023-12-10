@@ -1,11 +1,9 @@
 # praktikum8
-Praktikum 8
-
 OOP
 
 Bahasa Pemrograman
 
-Class
+# Class
 
 • Membuat Class
 
@@ -34,7 +32,7 @@ print("\nNama: {}\nAlamat: {}"\
 
 .format(self.nama, self.alamat))
 
-Private dan Public Atribut
+# Private dan Public Atribut
 
 • Menambahkan atribut private
 class Person():
@@ -47,7 +45,7 @@ def __cek_umur(self):
 if self.__umur > 17:
 return "sudah dewasa"
 
-Private dan Public Atribut
+# Private dan Public Atribut
 
 • Mengakses atribut
 ari.nama = 'Ari Santoso' # mengubah nilai atribut
@@ -58,7 +56,7 @@ print(ari.alamat) # mengakses atribut
 
 ari.cetak() # memanggil fungsi / method
 
-Setter dan Getter
+# Setter dan Getter
 
 • Menambahkan Property Setter dan Getter
 class Person():
@@ -73,7 +71,7 @@ return self.__umur
 def umur(self, value):
 self.__umur = value
 
-Inheritance atau Pewarisan
+# Inheritance atau Pewarisan
 
 • Membuat Sub Class
 
@@ -88,7 +86,7 @@ mhs1.umur = 25
 mhs1.alamat = "Bekasi"
 mhs1.cetak_nama()
 
-Overriding
+# Overriding
 
 • Pada Class Person terdapat fungsi cetak_data
 
@@ -99,7 +97,7 @@ print("\nNama: {}\nAlamat: {}\nUmur: {}"\
 
 .format(self.nama, self.alamat, self.__umur))
 
-# overriding
+#overriding
 def cetak_data(self):
 print("\nNim: {}\nNama: {}\nAlamat: {}\nUmur: {}"\
 
